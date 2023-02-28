@@ -1,0 +1,15 @@
+{
+    "name": "morlowsk/core-php",
+    "autoload": {
+        "psr-4": {
+            "Morlowsk\\CorePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michal Orlowski",
+            "email": "morlowsk@gmail.com"
+        }
+    ],
+    "require": {}
+}
