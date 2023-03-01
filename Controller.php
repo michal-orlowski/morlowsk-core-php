@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core;
-use app\core\middlewares\BaseMiddleware;
+namespace morlowsk\corephp;
+use morlowsk\corephp\middlewares\BaseMiddleware;
 
 /**
  * Summary of Controller
@@ -14,7 +14,7 @@ class Controller
     public string $action = '';
     /**
      * Summary of middlewares
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \morlowsk\corephp\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
     
@@ -35,7 +35,7 @@ class Controller
 
     /**
      * Summary of getMiddlewares
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \morlowsk\corephp\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

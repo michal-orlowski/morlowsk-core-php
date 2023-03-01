@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\form;
-use app\core\Model;
+namespace morlowsk\corephp\form;
+use morlowsk\corephp\Model;
 
 /**
  * Summary of Field
@@ -19,7 +19,7 @@ class InputField extends BaseField
 
     /**
      * Summary of __construct
-     * @param \app\core\Model $model
+     * @param \morlowsk\corephp\Model $model
      * @param string $attribute
      */
     public function __construct(Model $model, string $attribute)

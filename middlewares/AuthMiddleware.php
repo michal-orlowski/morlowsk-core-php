@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\middlewares;
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+namespace morlowsk\corephp\middlewares;
+use morlowsk\corephp\Application;
+use morlowsk\corephp\exception\ForbiddenException;
 
 /**
  * Summary of AuthMiddleware

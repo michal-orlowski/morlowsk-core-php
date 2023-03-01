@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
-use app\core\db\Database;
-use app\core\db\DbModel;
+namespace morlowsk\corephp;
+use morlowsk\corephp\db\Database;
+use morlowsk\corephp\db\DbModel;
 
 /**
  * Summary of Application
@@ -67,12 +67,12 @@ class Application
 
     }
 
-    public function getController(): \app\core\Controller
+    public function getController(): \morlowsk\corephp\Controller
     {
         return $this->controller;
     }
 
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\morlowsk\corephp\Controller $controller): void
     {
         $this->controller = $controller;
     }

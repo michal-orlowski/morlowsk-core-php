@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace morlowsk\corephp;
 
 /**
  * Summary of Session

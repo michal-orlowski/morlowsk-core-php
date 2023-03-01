@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core;
-use app\core\exception\NotFoundException;
+namespace morlowsk\corephp;
+use morlowsk\corephp\exception\NotFoundException;
 
 /**
  * Summary of Router
@@ -45,7 +45,7 @@ class Router
         }
 
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \morlowsk\corephp\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

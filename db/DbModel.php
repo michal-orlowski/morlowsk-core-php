@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
-use app\core\Application;
-use app\core\Model;
+namespace morlowsk\corephp\db;
+use morlowsk\corephp\Application;
+use morlowsk\corephp\Model;
 
 /**
  * Summary of DbModel

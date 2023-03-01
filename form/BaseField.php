@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\form;
-use app\core\Model;
+namespace morlowsk\corephp\form;
+use morlowsk\corephp\Model;
 
 /**
  * Summary of BaseField
@@ -14,7 +14,7 @@ abstract class BaseField
     public string $attribute;
     /**
      * Summary of __construct
-     * @param \app\core\Model $model
+     * @param \morlowsk\corephp\Model $model
      * @param string $attribute
      */
     public function __construct(Model $model, string $attribute)

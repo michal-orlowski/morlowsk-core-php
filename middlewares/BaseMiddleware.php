@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\middlewares;
+namespace morlowsk\corephp\middlewares;
 
 /**
  * Summary of BaseMiddleware

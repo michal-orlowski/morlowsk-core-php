@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\form;
-use app\core\Model;
+namespace morlowsk\corephp\form;
+use morlowsk\corephp\Model;
 
 /**
  * Summary of Form

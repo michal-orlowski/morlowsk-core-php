@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core;
-use app\core\db\DbModel;
+namespace morlowsk\corephp;
+use morlowsk\corephp\db\DbModel;
 
 /**
  * Summary of UserModel

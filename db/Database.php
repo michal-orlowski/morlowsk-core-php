@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\db;
-use app\core\Application;
+namespace morlowsk\corephp\db;
+use morlowsk\corephp\Application;
 
 /**
  * Summary of Database
