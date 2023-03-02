@@ -1,4 +1,6 @@
 {
+    "description": "Simple core for PHP MVC",
+    "license": "MIT",
     "name": "morlowsk/core-php",
     "authors": [
         {
