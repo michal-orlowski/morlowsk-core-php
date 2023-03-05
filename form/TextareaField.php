@@ -1,5 +1,4 @@
 <?php
-
 namespace morlowsk\corephp\form;
 
 class TextareaField extends BaseField

@@ -52,6 +52,24 @@ abstract class DbModel extends Model
 
     }
 
+    public function getAllProducts()
+    {
+        $statement = self::prepare('SELECT * FROM product ORDER BY sku');
+        $statement->execute();
+        
+        $products = $statement->fetchAll();
+        return $products;
+    }
+
+    public function selectAttribute($attr)
+    {
+        $statement = self::prepare('SELECT description FROM attributes WHERE id = '.$attr);
+        $statement->execute();
+        
+        $attribute = $statement->fetch();
+        return $attribute;
+    }
+
     public static function prepare($sql)
     {
         return Application::$app->db->pdo->prepare($sql);
